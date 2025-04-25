@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar";
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
       <section id="home" className="py-20 bg-gradient-to-r from-blue-50 to-indigo-50">
         <div className="max-w-4xl mx-auto text-center px-4">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            Hi, I'm <span className="text-primary">ibyishaka</span>
+            Hi Iam <span className="text-primary">ibyishaka</span>
           </h1>
           <p className="text-lg text-gray-600 mb-8">
             A Next.js Developer based in Kigali, Rwanda.
@@ -43,12 +44,12 @@ export default function Home() {
           <div className="flex flex-col md:flex-row gap-8 items-center">
             <div className="w-full md:w-1/3">
               <div className="bg-gray-300 h-64 rounded-lg">
-                <img src="images/q1.jpg" alt="" className='round-full' width={500} height={300} />
+                <Image src="/images/q1.jpg" alt="" className='round-full' width={500} height={300} />
               </div>
             </div>
             <div className="w-full md:w-2/3">
               <p className="text-gray-700 mb-4">
-                I'm a passionate developer specializing in Next.js, React, and Tailwind CSS.
+                Iam a passionate developer specializing in Next.js, React, and Tailwind CSS.
               </p>
               <p className="text-gray-700">
                 With 3+ years of experience, I build fast, SEO-friendly websites.
