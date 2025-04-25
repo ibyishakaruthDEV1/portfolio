@@ -43,7 +43,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row gap-8 items-center">
             <div className="w-full md:w-1/3">
               <div className="bg-gray-300 h-64 rounded-lg">
-                <img src="images/q1.jpg" alt="" className='round-full' width={400} height={100} />
+                <img src="images/q1.jpg" alt="" className='round-full' width={500} height={300} />
               </div>
             </div>
             <div className="w-full md:w-2/3">
